@@ -5,7 +5,8 @@ const services = [
   {
     Icon: ShieldAlert,
     name: "Threat Detection",
-    description: "Identify and mitigate potential threats before they become critical issues.",
+    description:
+      "Identify and mitigate potential threats before they become critical issues.",
     href: "/",
     cta: "Learn more",
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-4",
@@ -13,7 +14,8 @@ const services = [
   {
     Icon: BookCheck,
     name: "Compliance",
-    description: "Ensure your business meets all regulatory requirements with our compliance services.",
+    description:
+      "Ensure your business meets all regulatory requirements with our compliance services.",
     href: "/",
     cta: "Learn more",
     className: "lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-4",
@@ -21,10 +23,11 @@ const services = [
   {
     Icon: Speech,
     name: "Consulting",
-    description: "Expert advice and strategies to enhance your cybersecurity posture.",
+    description:
+      "Expert advice and strategies to enhance your cybersecurity posture.",
     href: "/",
     cta: "Learn more",
-    className:  "lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-4",
+    className: "lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-4",
   },
 ];
 
@@ -37,9 +40,9 @@ export function Services() {
         threats. Our services include:
       </p>
       <BentoGrid className="lg:grid-rows-3">
-      {services.map((feature) => (
-        <BentoCard key={feature.name} {...feature} />
-      ))}
+        {services.map((feature) => (
+          <BentoCard key={feature.name} {...feature} />
+        ))}
       </BentoGrid>
     </div>
   );
