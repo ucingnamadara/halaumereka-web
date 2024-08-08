@@ -1,9 +1,11 @@
+import HalauMerekaLogo from "src/assets/logo/Logo With Text.png";
+
 export function Footer(){
     return(
 
         <footer class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-12 mx-auto">
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+    <div class="container px-6 pb-12 mx-auto">
+        <div class="hidden grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
             <div class="sm:col-span-2">
                 <h1 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">Subscribe our newsletter to get update.</h1>
 
@@ -41,11 +43,11 @@ export function Footer(){
         
         <div class="flex items-center justify-between">
             <a href="#">
-                <img class="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt=""/>
+                <img class="w-auto h-10" src={HalauMerekaLogo} alt=""/>
             </a>
             
             <div class="flex -mx-2">
-                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Reddit">
+                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400" aria-label="Reddit">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -54,7 +56,7 @@ export function Footer(){
                     </svg>
                 </a>
 
-                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400" aria-label="Facebook">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -63,7 +65,7 @@ export function Footer(){
                     </svg>
                 </a>
 
-                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400" aria-label="Github">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path

@@ -6,7 +6,7 @@ import { cn } from "src/libs/utils";
 
 export function Homepage() {
   return (
-    <div className="relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20">
+    <div className="relative flex h-[620px] w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20">
       <GridPattern
         numSquares={30}
         maxOpacity={0.1}
