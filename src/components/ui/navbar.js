@@ -2,9 +2,9 @@ import HalauMerekaLogo from "src/assets/logo/Logo With Text.png";
 
 export function Navbar() {
   return (
-    <nav class="border">
+    <nav class="border" id="homepage">
       <div class="container flex flex-wrap items-center justify-between py-4">
-        <a href="#" class="flex">
+        <a href="#homepage" class="flex">
           <img
             src={HalauMerekaLogo}
             alt="Halau Mereka Logo"
@@ -48,15 +48,15 @@ export function Navbar() {
           <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-base md:font-semibold">
             <li>
               <a
-                href="#"
+                href="#about"
                 class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-yellow-500 md:p-0"
               >
-                Home
+                About Us
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#service"
                 class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-yellow-500 md:p-0"
               >
                 Services
@@ -64,18 +64,18 @@ export function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#our-work"
                 class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-yellow-500 md:p-0"
               >
-                Pricing
+                Our Work
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#testimony"
                 class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-yellow-500 md:p-0"
               >
-                Contact
+                Testimony
               </a>
             </li>
           </ul>

@@ -1,4 +1,3 @@
-import { StarIcon } from "lucide-react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { StarFilledIcon } from "@radix-ui/react-icons";
@@ -7,7 +6,7 @@ export function SlideTestimonial({ content }) {
   const [sliderRef] = useKeenSlider({
     loop: true,
     slides: {
-      perView: 2,
+      perView: document.documentElement.clientWidth < 576 ? 1 : 2,
       spacing: 15,
     },
   });

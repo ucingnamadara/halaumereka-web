@@ -6,15 +6,17 @@ import { Services } from "./pages/services";
 import { Reviews } from "./pages/reviews";
 import { Navbar } from "./components/ui/navbar";
 import { Footer } from "./components/ui/footer";
+import { HowWeWork } from "./pages/how-we-work";
 
 function App() {
   return (
     <div>
       <Navbar />
       <div className="">
-        <Homepage />
-        <About id="#about" />
-        <Services id="#service" />
+        <Homepage/>
+        <About />
+        <Services  />
+        <HowWeWork />
         <Reviews />
       </div>
       <Footer/>
