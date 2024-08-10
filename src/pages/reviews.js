@@ -39,7 +39,7 @@ export function Reviews() {
               us!
             </p>
           </div>
-        <SlideTestimonial content={reviews} />
+          <SlideTestimonial content={reviews} />
         </div>
       </div>
     </section>

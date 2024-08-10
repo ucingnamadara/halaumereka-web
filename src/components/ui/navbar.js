@@ -14,7 +14,7 @@ export function Navbar() {
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
-          class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:text-yellow-500 rounded-lg inline-flex items-center justify-center"
+          class="hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:text-yellow-500 rounded-lg inline-flex items-center justify-center"
           aria-controls="mobile-menu-2"
           aria-expanded="false"
         >

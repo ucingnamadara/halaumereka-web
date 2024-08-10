@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 
 export const AnimatedButton = ({
   buttonColor,
@@ -15,7 +15,7 @@ export const AnimatedButton = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        onClick={() => href}
+        onClick={href}
       >
         <motion.span
           key="reaction"
