@@ -1,15 +1,26 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { StarFilledIcon } from "@radix-ui/react-icons";
+import { useEffect } from "react";
 
 export function SlideTestimonial({ content }) {
-  const [sliderRef] = useKeenSlider({
+  const [sliderRef, slider] = useKeenSlider({
     loop: true,
     slides: {
       perView: document.documentElement.clientWidth < 576 ? 1 : 2,
       spacing: 15,
     },
   });
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      slider?.current.next()
+    }, 3000)
+
+    return () => {
+      clearInterval(interval)
+    }
+  }, [slider])
 
   return (
   <div className="-mx-6 lg:col-span-2 lg:mx-0">

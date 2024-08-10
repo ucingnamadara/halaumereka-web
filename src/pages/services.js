@@ -42,7 +42,7 @@ export function Services() {
     <div id="service" className="flex flex-col py-24 lg:py-32 px-20 lg:px-28 gap-10">
       <div className="flex flex-col items-center justify-center gap-2">
         <h1 className="text-4xl font-bold">Our Services</h1>
-        <p className="font-medium">
+        <p className="text-xl font-medium">
           We offer a range of services to protect your business from cyber
           threats. <span className="text-yellow-500">Our services include:</span>
         </p>

@@ -6,7 +6,7 @@ export function About() {
       <img src={HalauMerekaBlackLogo} className="h-max w-[500px]"/>
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl md:text-4xl font-semibold text-yellow-500">Who We Are</h1>
-        <h2 className="text-2xl md:text-2xl font-semibold">Integrity, vigilance, and excellence</h2>
+        <h2 className="text-xl md:text-2xl font-semibold">Integrity, vigilance, and excellence</h2>
         <p>
         At Halau Mereka, we are dedicated to safeguarding your digital world. Established in various years, our mission is to provide cutting-edge cybersecurity solutions that protect businesses and individuals from evolving cyber threats.
         </p>

@@ -18,7 +18,7 @@ export function Homepage() {
         )}
       />
       <div className="flex flex-col items-right justify-center gap-5">
-        <div className="flex flex-col text-6xl font-bold gap-3">
+        <div className="flex flex-col text-4xl md:text-6xl font-bold gap-1 md:gap-3">
           <h1>Protecting Your{" "}</h1>
           <WordRotate
             words={[
@@ -34,7 +34,7 @@ export function Homepage() {
             className="text-yellow-500"
           />
         </div>
-        <p className="text-xl font-medium">
+        <p className="text-lg md:text-xl font-medium">
           Comprehensive Cybersecurity Solutions for Businesses of All Sizes
         </p>
         <div className="flex flex-row gap-2">
