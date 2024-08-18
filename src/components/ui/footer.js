@@ -3,7 +3,7 @@ import { Check, Copy } from "lucide-react";
 import { AnimatedConditionButton } from "../magicui/animated-condition-button";
 
 export function Footer() {
-  const email = "halaumereka@gmail.com";
+  const email = "halo@halaumereka.id";
   return (
     <footer class="bg-white dark:bg-gray-900">
       <div class="container px-6 py-12 mx-auto">
