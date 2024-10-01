@@ -36,12 +36,8 @@ export function SlideTestimonial({ content }) {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-2xl font-bold text-black-600 sm:text-3xl">
+                  <p className="text-xl font-bold text-black-600 sm:text-2xl">
                     {data.title}
-                  </p>
-
-                  <p className="mt-4 leading-relaxed text-gray-700">
-                    {data.review}
                   </p>
                 </div>
               </div>

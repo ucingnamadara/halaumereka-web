@@ -3,24 +3,24 @@ import { SlideTestimonial } from "src/components/hyperui/slide-testimonial";
 const reviews = [
   {
     star: 5,
-    name: "Jane Doe, CTO of Tech Innovators Inc.",
-    title: "Exceptional Service and Expertise",
+    name: "Azmi, Participant of the ‘Cybersecurity Goes to Campus’ Webinar",
+    title: "More webinars should be held with more interesting topics",
     review:
-      "Halau Mereka Solutions quickly identified vulnerabilities and implemented robust security measures. We now feel confident our data is protected. Highly recommend!”",
-  },
-  {
-    star: 4,
-    name: "John Smith, CEO of Global Enterprises",
-    title: "Peace of Mind with Proactive Protection",
-    review:
-      "Thanks to Halau Mereka Solutions, we’ve seen a significant reduction in cyber threats. Their proactive approach gives us peace of mind.",
+      "",
   },
   {
     star: 5,
-    name: "Thorough and Efficient Security Solutions",
-    title: "Emily Johnson, IT Manager at SecureTech",
+    name: "Rizal, Participant of the ‘Cybersecurity Goes to Campus’ Webinar",
+    title: "HalauMereka provided a cybersecurity webinar that was very useful for us students who are learning about NGFW and penetration testing in the industry.",
     review:
-      "Halau Mereka Solutions provided a comprehensive security audit and tailored solutions. Their support team is always available and responsive.",
+      "",
+  },
+  {
+    star: 5,
+    name: "Sarah M, Participant of the ‘Cybersecurity Goes to Campus’ Webinar",
+    title: "Topics that are not available on campus, hopefully, there will be more events like this and if possible, offline.",
+    review:
+      "",
   },
 ];
 
