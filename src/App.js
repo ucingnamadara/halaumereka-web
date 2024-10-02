@@ -7,8 +7,11 @@ import { Reviews } from "./pages/reviews";
 import { Navbar } from "./components/ui/navbar";
 import { Footer } from "./components/ui/footer";
 import { HowWeWork } from "./pages/how-we-work";
+import { FetchStory } from "./services/medium-service";
+import { Article } from "./pages/article";
 
 function App() {
+  FetchStory()
   return (
     <div>
       <Navbar />
@@ -18,6 +21,7 @@ function App() {
         <Services />
         <HowWeWork />
         <Reviews />
+        <Article/>
       </div>
       <Footer />
     </div>
