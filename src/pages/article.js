@@ -33,14 +33,14 @@ export function Article(){
     return (
         <div id = "article" className="bg-gray-100 px-5 py-12 sm:px-6 sm:py-12 lg:px-8 lg:py-24">
           <div className="flex flex-col container justify-center items-center gap-8">
-            <div className="text-3xl font-bold sm:text-4xl">Read Our Articles & News</div>
+            <div className="text-2xl font-bold md:text-4xl text-center">Read Our Articles & News</div>
             <div className="flex">
                 {data.slice(0,2).map(feed => (
                     <div>
                         <a target="_blank" href={feed.link} className="flex flex-row gap-2 items-center justify-center py-5">
-                            <img src={defaultImage} className="w-28"/>
+                            <img src={defaultImage} className="w-20 lg:w-24"/>
                             <div>
-                                <div className="text-xl text-center font-semibold">{feed.title}</div>
+                                <div className="text-lg md:text-xl text-left font-semibold">{feed.title}</div>
                                 <div className="text-xs font-medium text-gray-800">{feed.pubDate}</div>
                             </div>
                         </a>
@@ -48,6 +48,7 @@ export function Article(){
                     </div>
                 ))}
             </div>
+            <a a target="_blank" href="https://medium.com/@halaumereka" className="font-semibold text-yellow-500">See All</a>
           </div>
         </div>
       );

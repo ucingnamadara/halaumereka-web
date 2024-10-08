@@ -1,4 +1,4 @@
-import { FileSearch, GraduationCap, MonitorCheck, Wrench } from "lucide-react";
+import { FileSearch, GraduationCap, HeartHandshake, MonitorCheck, Wrench } from "lucide-react";
 
 export function HowWeWork() {
   return (
@@ -47,39 +47,15 @@ export function HowWeWork() {
 
             <div class="flex items-start gap-4">
               <span class="shrink-0 rounded-full bg-yellow-500 p-3">
-                <Wrench />
+                <HeartHandshake />
               </span>
 
               <div>
                 <div className="flex flex-row text-center items-center gap-2">
-                  <h2 class="text-lg font-semibold">Implementation</h2>
-                  <p className="bg-yellow-500 font-medium text-xs rounded-2xl p-[0.25rem]">
-                    Coming Soon
-                  </p>
+                  <h2 class="text-lg font-semibold">Movement</h2>
                 </div>
                 <p class="mt-1 text-sm">
-                  Leveraging cutting-edge technology and best practices, we
-                  implement robust security measures tailored to protect your
-                  assets.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="shrink-0 rounded-full bg-yellow-500 p-3">
-                <MonitorCheck />
-              </span>
-
-              <div>
-                <div className="flex flex-row text-center items-center gap-2">
-                  <h2 class="text-lg font-semibold">Monitoring</h2>
-                  <p className="bg-yellow-500 font-medium text-xs rounded-2xl p-[0.25rem]">
-                    Coming Soon
-                  </p>
-                </div>
-                <p class="mt-1 text-sm">
-                  Our state-of-the-art monitoring systems provide real-time
-                  surveillance to detect and respond to threats as they arise.
+                We’re driving a movement to educate and empower through seminars, webinars, and workshops.
                 </p>
               </div>
             </div>
