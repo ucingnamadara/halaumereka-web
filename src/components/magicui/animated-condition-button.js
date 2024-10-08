@@ -16,7 +16,7 @@ export const AnimatedConditionButton = ({
     <AnimatePresence mode="wait">
       {!isStatus ? (
         <motion.button
-          className="relative flex w-[150px] cursor-pointer items-center justify-center overflow-hidden rounded-[0.375rem] bg-white p-[10px] outline outline-1 outline-black"
+          className="relative flex w-[75px] md:w-[150px] cursor-pointer items-center justify-center overflow-hidden rounded-[0.375rem] bg-white p-[4px] md:p-[10px] outline outline-1 outline-black"
           style={{ backgroundColor: buttonColor, color: buttonTextColor }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -34,7 +34,7 @@ export const AnimatedConditionButton = ({
         </motion.button>
       ) : (
         <motion.button
-          className="relative flex w-[150px] items-center justify-center bg-white rounded-[0.375rem] border-none p-[10px] outline outline-1 outline-black"
+          className="relative flex w-[75px] md:w-[150px] items-center justify-center bg-white rounded-[0.375rem] border-none p-[4px] md:p-[10px] outline outline-1 outline-black"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
